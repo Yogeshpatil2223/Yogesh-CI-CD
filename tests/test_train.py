@@ -9,5 +9,4 @@ def test_model_trining():
     model = joblib.load("models/model.pkl")
     assert hasattr(model,"predict"),"Model does not found"
 
-def test_placeholder():
-    assert True
+
